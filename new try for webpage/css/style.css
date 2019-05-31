@@ -1,0 +1,118 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	margin: 0;
+	height: 100%;
+}
+.header{
+	display: inline-flex;
+	background-color: black;
+	flex-direction: row;
+	padding: 30px;
+	width: 100%;
+}
+.ik{
+	color:white;
+}
+.do{
+	color: yellow;
+}
+
+.home:hover{
+	background-color: lightgrey;
+}
+
+.navbar{
+	display: flex;
+	background-color: #333;
+}
+.navbar > div{
+	color: white;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+h2{
+	border-bottom: 1px solid black;
+}
+.navbar a{
+	text-decoration: none;
+	color: white;
+}
+.home {
+	border-right: 1px solid black;
+	text-decoration: none;
+}
+
+.firstside{		
+	background-color: lightgrey;
+	padding: 15px 20px;
+	/* display: block; */
+	width: 100%;
+	float:left;
+}
+.fakebox{
+	width: 17%;
+	float: left;
+}
+p{
+	padding: 10px;
+}
+h4{
+	text-align: justify;
+}
+.sidebar{
+	background-color: grey;
+	padding: 20px 20px;
+	width: 25%;
+	/* float:right; */
+	float:left;
+}
+
+.color1:hover{
+	background-color: lightgrey;
+	cursor: pointer;
+}
+
+.line{
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.color{
+	color: yellow;
+	padding: 4px;
+}
+.color1{
+	color: yellow;
+	text-align: center;
+}
+
+.footer{
+	text-align: center;
+	background-color: black;
+	color: lightgrey;
+	padding: 2px;
+	width: 100%;
+    float: left;
+} 
+.foo{
+	float: left;
+}
+/* For mobile phones: */
+.foo,.sidebar{
+  width: 100%;
+}
+
+  /* For tablets: */
+@media only screen and (min-width: 600px) {
+  .foo{width: 50%;}
+  .sidebar{width: 50%;
+  	       height: 870px;}
+}
+ /* For desktop: */
+@media only screen and (min-width: 1024px) {
+ .foo{width: 75%;}
+  .sidebar{width: 25%;
+  	       height: 650px;} }
